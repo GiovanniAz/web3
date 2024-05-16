@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Logo</a>
+            <ul class="menu">
+                <li><a href="#">Ahorros</a></li>
+                <li><a href="#">Préstamos</a></li>
+                <li><a href="#">Tarjetas</a></li>
+                <li><a href="#">AFP</a></li>
+				<li><a href="#">Seguros</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="banner">
+		<div class="container">	
+			<div class="banner-buttons">
+				<h1>SOAT</h1>
+				<h2>Que nada te detenga en tu camino</h2>
+				<div class="button-container">
+					<div class="buttons-row">
+						<div class="button-description">
+							<p class="tipo-texto">Tipo:</p>
+							<a href="#" class="btn" id="btn1">Botón 1</a>
+							<a href="#" class="btn" id="btn2">Botón 2</a>
+						</div>
+						<div class="dropdown">
+							<p class="uso-texto">Uso:</p>
+							<button onclick="toggleDropdown()" class="btn-dropdown">Botón 3 <span class="dropdown-indicator"></span></button>
+							<div id="dropdown-content" class="dropdown-content">
+								<a href="#" class="dropdown-item" onclick="selectOption(this)">Opción 1</a>
+								<a href="#" class="dropdown-item" onclick="selectOption(this)">Opción 2</a>
+								<a href="#" class="dropdown-item" onclick="selectOption(this)">Opción 3</a>
+							</div>
+						</div>
+					</div>
+					<div class="container" id="dropdown-container" style="display: none;">
+						<div class="dropdown">
+							<p class="uso-texto">Auto:</p>
+							<button onclick="toggleDropdownAdditional()" class="btn-dropdown btn-dropdown-4" id="btn-dropdown-additional">Botón 4 <span class="dropdown-indicator"></span></button>
+							<div id="dropdown-content-additional" class="dropdown-content">
+								<a href="#" class="dropdown-item" onclick="selectAdditionalOption(this)">Opción A</a>
+								<a href="#" class="dropdown-item" onclick="selectAdditionalOption(this)">Opción B</a>
+								<a href="#" class="dropdown-item" onclick="selectAdditionalOption(this)">Opción C</a>
+							</div>
+						</div>
+					</div>
+					<div class="container" id="dropdown-container-2" style="display: none;">
+					<div class="dropdown">
+						<p class="uso-texto">Lugar DNI de propietario</p>
+						<button onclick="toggleDropdownAdditional2()" class="btn-dropdown btn-dropdown-5" id="btn-dropdown-additional-2">Botón 5 <span class="dropdown-indicator"></span></button>
+						<div id="dropdown-content-additional-2" class="dropdown-content">
+							<a href="#" class="dropdown-item" onclick="selectAdditionalOption2(this)">Opción X</a>
+							<a href="#" class="dropdown-item" onclick="selectAdditionalOption2(this)">Opción Y</a>
+							<a href="#" class="dropdown-item" onclick="selectAdditionalOption2(this)">Opción Z</a>
+						</div>
+					</div>
+
+					
+					
+					
+					</div>
+						<div class="container" id="btn-container-6">
+								<p>Texto debajo del Botón 5</p>
+								<button onclick="toggleDropdownAdditional3()" class="btn-dropdown btn-dropdown-6" id="btn-dropdown-additional-3">Botón 6 <span class="dropdown-indicator"></span></button>
+								
+								<div id="dropdown-content-additional-3" class="dropdown-content">
+									<!-- Contenido del menú desplegable del botón 6 -->
+									<a href="#" class="dropdown-item" onclick="selectAdditionalOption3(this)">Opción 1</a>
+									<a href="#" class="dropdown-item" onclick="selectAdditionalOption3(this)">Opción 2</a>
+									<a href="#" class="dropdown-item" onclick="selectAdditionalOption3(this)">Opción 3</a>
+						</div>
+					</div>
+
+
+					
+			</div>
+		</div>
+	</header>
+	
+	
+
+    <div class="container">
+        <!-- Aquí puedes agregar el contenido de tu página -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--copiaa hasta antes de poner el boton 3 waa-->
