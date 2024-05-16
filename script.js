@@ -32,11 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleButtons(btn2, btn1);
         document.getElementById('dropdown-container').style.display = 'none';
 
-        // Mostrar el botón 5 al hacer clic en el botón 2
         document.getElementById('dropdown-container-2').style.display = 'block';
     });
 
-    // Mostrar el botón 4 (botón desplegable del botón 3) por defecto
     document.getElementById('dropdown-container').style.display = 'block';
 });
 
