@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 * {
     margin: 0;
     padding: 0;
@@ -190,11 +190,11 @@ body {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #2dbbc0; /* Cambia el color del triángulo según tu diseño */
+    border-top: 6px solid #2dbbc0; 
 }
 
 .btn-dropdown {
-    position: relative; /* Agrega posición relativa para el contenedor del triángulo */
+    position: relative; 
     display: inline-block;
     padding: 10px 90px;
     margin: 0 10px;
@@ -211,7 +211,7 @@ body {
 }
 
 .btn-dropdown-4{
-    position: relative; /* Agrega posición relativa para el contenedor del triángulo */
+    position: relative; 
     display: inline-block;
     padding: 10px 190px;
     margin: 0 10px;
@@ -228,7 +228,7 @@ body {
 }
     
 .btn-dropdown-5 {
-    position: relative; /* Agrega posición relativa para el contenedor del triángulo */
+    position: relative;
     display: inline-block;
     padding: 10px 90px;
     margin: 0 10px;
@@ -244,18 +244,18 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 #btn-container-4 {
-    text-align: center; /* Centra el contenido horizontalmente */
-    margin-top: 20px; /* Ajusta el margen superior según tu diseño */
+    text-align: center; 
+    margin-top: 20px; 
 
 }
 #btn-container-5 {
-    text-align: center; /* Centra el contenido horizontalmente */
-    margin-top: 20px; /* Ajusta el margen superior según tu diseño */
+    text-align: center;
+    margin-top: 20px;
 
 }
 
 .btn-dropdown-6 {
-    position: relative; /* Agrega posición relativa para el contenedor del triángulo */
+    position: relative;
     display: inline-block;
     padding: 10px 90px;
     margin: 0 10px;
@@ -272,8 +272,8 @@ body {
 }
 
 #btn-container-6 {
-    text-align: center; /* Centra el contenido horizontalmente */
-    margin-top: 20px; /* Ajusta el margen superior según tu diseño */
+    text-align: center;
+    margin-top: 20px; 
 
 }
 
